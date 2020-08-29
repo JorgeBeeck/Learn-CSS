@@ -1,5 +1,5 @@
 # Learn-CSS
-# installation: 
+# Installation: 
 
 -Install the repository
 -In the terminal type: npm install
