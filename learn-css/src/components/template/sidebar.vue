@@ -29,8 +29,13 @@ export default {
       pages: [
         {
           id: 0,
-          title: "BACKGROUND-COLOR",
+          title: "BACKGROUND COLOR",
           myRouter: "/backgroundColor",
+        },
+        {
+          id: 1,
+          title: "TEXT COLOR",
+          myRouter: "/textColor",
         },
       ],
       open: false,
