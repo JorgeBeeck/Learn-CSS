@@ -3,7 +3,9 @@
     <b-sidebar type="is-dark" :fullheight="fullheight" :overlay="overlay" v-model="open">
       <div class="p-1">
         <center>
-          <h1 class="title has-text-light">Learn CSS</h1>
+          <h1 class="title">
+            <router-link to="/" style="color: #fff">Learn CSS</router-link>
+          </h1>
           <hr />
         </center>
         <div v-for="page in pages" :key="page.id">
