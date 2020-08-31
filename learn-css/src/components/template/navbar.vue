@@ -1,7 +1,7 @@
 <template>
   <b-navbar type="is-dark" :mobile-burger="false">
     <template slot="brand">
-      <b-navbar-item tag="router-link" :to="{ path: '/' }">
+      <b-navbar-item>
         <sidebar />
       </b-navbar-item>
     </template>
