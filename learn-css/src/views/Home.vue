@@ -1,11 +1,7 @@
 <template>
   <div class="home">
-    <img />
+    <h1 class="title">PAGINA HOME</h1>
   </div>
 </template>
 
-<script>
-export default {
-  name: "Home",
-};
-</script>
+

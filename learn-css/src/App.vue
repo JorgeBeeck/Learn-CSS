@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <div>
-      <ul>
-        <li>
-          <router-link to="/">Home</router-link>
-        </li>
-        <li>
-          <router-link to="/cssBackgroundColor">Background Color</router-link>
-        </li>
-      </ul>
-    </div>
-    <router-view />
+    <header>
+      <navbar />
+    </header>
+    <main></main>
   </div>
 </template>
 
-
+<script>
+import navbar from "@/components/template/navbar.vue";
+export default {
+  components: {
+    navbar,
+  },
+};
+</script>
