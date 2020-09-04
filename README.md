@@ -6,6 +6,8 @@
 
 # Run the VUEJS
 
--In the terminal type: npm run serve -- --open
+-In the terminal type: 
+- cd <project> 
+- npm run serve -- --open
 
 This opens the project in your browser and run project
