@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="is-dark" :mobile-burger="false">
+  <b-navbar :fixed-top="true" type="is-dark" :mobile-burger="false">
     <template slot="brand">
       <b-navbar-item>
         <sidebar />

@@ -37,6 +37,11 @@ export default {
           title: "TEXT COLOR",
           myRouter: "/textColor",
         },
+        {
+          id: 2,
+          title: "MARGIN",
+          myRouter: "/margin",
+        },
       ],
       open: false,
       overlay: true,

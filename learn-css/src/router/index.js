@@ -1,8 +1,16 @@
+//uteis
 import Vue from "vue";
 import VueRouter from "vue-router";
+
+//principalRouters
 import Home from "../views/Home.vue";
-import textColor from "../views/textColor.vue";
-import backgroundColor from "../views/backgroundColor.vue";
+
+//toLearnCss
+import textColor from "../views/toLearnCss/textColor.vue";
+import backgroundColor from "../views/toLearnCss/backgroundColor.vue";
+import margin from "../views/toLearnCss/margin.vue";
+
+//puzzles - talvez -
 
 Vue.use(VueRouter);
 
@@ -21,6 +29,11 @@ const routes = [
     path: "/textColor",
     name: "textColor",
     component: textColor,
+  },
+  {
+    path: "/margin",
+    name: "margin",
+    component: margin,
   },
 ];
 
