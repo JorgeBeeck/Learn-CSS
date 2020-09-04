@@ -10,6 +10,6 @@
 
 -In the terminal type: 
 
-- npm run serve -- --open
+- sudo npm run serve -- --open
 
 This opens the project in your browser and run project
