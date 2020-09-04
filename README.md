@@ -1,5 +1,6 @@
 # Learn-CSS
-# Installation: 
+
+# Installation:
 
 -Install the repository
 -In the terminal type: npm install
@@ -9,3 +10,5 @@
 -In the terminal type: npm run serve -- --open
 
 This opens the project in your browser and run project
+
+# git fetch // git merge
