@@ -3,7 +3,7 @@
 
 -Install the repository
 -In the terminal type: 
-- cd <project> 
+- cd project_name
 - npm install
 
 # Run the VUEJS
