@@ -9,6 +9,7 @@ import Home from "../views/Home.vue";
 import textColor from "../views/toLearnCss/textColor.vue";
 import backgroundColor from "../views/toLearnCss/backgroundColor.vue";
 import margin from "../views/toLearnCss/margin.vue";
+import border from "../views/toLearnCss/border.vue";
 
 //puzzles - talvez -
 
@@ -34,6 +35,11 @@ const routes = [
     path: "/margin",
     name: "margin",
     component: margin,
+  },
+  {
+    path: "/border",
+    name: "border",
+    component: border,
   },
 ];
 

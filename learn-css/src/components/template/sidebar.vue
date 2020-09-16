@@ -42,6 +42,11 @@ export default {
           title: "MARGIN",
           myRouter: "/margin",
         },
+        {
+          id: 3,
+          title: "BORDER",
+          myRouter: "/border",
+        },
       ],
       open: false,
       overlay: true,
